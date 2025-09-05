@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>多元選修課程介紹</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: "Noto Sans TC", Arial, sans-serif; margin: 0; background: #f8fafc; color: #222; }
+        header { background: #222; color: #fff; padding: 28px 0; text-align: center; }
+        nav { background: #fff; border-bottom: 1px solid #eee; }
+        nav ul { list-style: none; margin: 0; padding: 0; display: flex; justify-content: center; gap: 24px; }
+        nav a { color: #222; text-decoration: none; font-weight: 500; padding: 8px 0; }
+        nav a:hover { border-bottom: 2px solid #222; }
+        main { max-width: 700px; margin: 32px auto; background: #fff; padding: 32px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);}
+        h1, h2 { font-weight: 700; margin: 0 0 16px 0; }
+        h2 { color: #222; font-size: 1.2em; }
+        section { margin-bottom: 32px; }
+        .courses { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .course-card { background: #f8fafc; border: 1px solid #eee; border-radius: 6px; padding: 18px; }
+        .course-card h3 { margin: 0 0 8px 0; font-size: 1em; color: #222; }
+        .course-card p { margin: 0; color: #555; font-size: 0.97em; }
+        footer { text-align: center; color: #888; margin: 40px 0 12px 0; font-size: 0.95em; }
+        @media (max-width: 600px) {
+            .courses { grid-template-columns: 1fr; }
+            main { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>多元選修課程介紹</h1>
+        <p style="font-size:1.05em;">探索你的興趣，開啟學習新篇章</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">關於課程</a></li>
+            <li><a href="#courses">課程列表</a></li>
+            <li><a href="#contact">聯絡我們</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>關於多元選修</h2>
+            <p>
+                多元選修課程提供學生多樣化學習機會，培養跨領域能力，激發創意思維。涵蓋科技、人文、藝術等領域，讓你自由選擇，發展個人專長。
+            </p>
+        </section>
+        <section id="courses">
+            <h2>熱門課程</h2>
+            <div class="courses">
+                <div class="course-card">
+                    <h3>人工智慧入門</h3>
+                    <p>認識AI基礎原理，實作簡易機器學習專案。</p>
+                </div>
+                <div class="course-card">
+                    <h3>創意寫作工作坊</h3>
+                    <p>提升寫作技巧，發揮文字創造力。</p>
+                </div>
+                <div class="course-card">
+                    <h3>攝影與影像美學</h3>
+                    <p>學習攝影構圖與後製，捕捉生活美好瞬間。</p>
+                </div>
+                <div class="course-card">
+                    <h3>程式設計實作</h3>
+                    <p>從零開始學習程式語言，動手打造小型專案。</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>聯絡我們</h2>
+            <p>如有課程相關問題，歡迎來信 <a href="mailto:info@example.com">info@example.com</a>。</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 多元選修課程 | 版權所有
+    </footer>
+</body>
+</html>
