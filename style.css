@@ -1,0 +1,16 @@
+body{
+	background-position: center;
+	background-color: #fbf9cc;
+	background-image: url(https://i.imgur.com/0C1CQ84.png);
+	background-size: 600px ;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+}
+
+#wrap{
+	width: 798px;
+	margin: 40px auto;
+	padding: 40px 80px;
+	border: #f6bb9e 1px solid;
+	background-color: #fff;
+}
