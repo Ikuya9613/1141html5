@@ -1,0 +1,21 @@
+<head>
+    <meta charset="utf-8">
+    <script src="draw.js" defer></script>
+</head>
+<body>
+    <link rel="stylesheet" href="general.css">
+    <div class="container wrap">
+        <canvas id="canvas" width="1600" height="800"></canvas>
+        <div>
+            顏色：<input id="color" type="color">
+            粗細：<input id="lineWidth" type="range" min="1" max="20" step="1" />
+            <p>Value: <output id="value"></output></p>
+        </div>
+        <div class="controls-row">
+            <button id="toshow" class="btn">產生圖片</button>
+            <button id="clear" class="btn">清除</button>
+        </div>
+        <br>
+        <img id="show" alt="">
+    </div>
+</body>

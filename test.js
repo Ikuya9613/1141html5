@@ -60,8 +60,8 @@ btn4.addEventListener("click",function(){  //監聽事件，點擊，執行函�
     document.getElementById("demo2").style.display = y;
 })
 img.addEventListener("mouseover",function(){  //監聽事件，滑鼠懸浮上面
-    this.src = "Xi Winnie.png";
+    this.src = "Pictures/Xi Winnie.png";
 })
 img.addEventListener("mouseout",function(){  //監聽事件，滑鼠懸浮離開
-    this.src = "Xi Jinping.png";
+    this.src = "Pictures/Xi Jinping.png";
 })
